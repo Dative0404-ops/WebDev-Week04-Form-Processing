@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration Form</title>
+  </head>
+  <body>
+    <h2>Student Registration</h2>
+    <form action="process.php" method="POST">
+      <label for="fullname">Full Name:</label><br />
+      <input type="text" id="fullname" name="fullname" /><br /><br />
+
+      <label for="email">Email Address:</label><br />
+      <input type="email" id="email" name="email" /><br /><br />
+
+      <label for="year_level">Year Level:</label><br />
+      <select id="year_level" name="year_level">
+        <option value="">--Select Year Level--</option>
+        <option value="1st Year">1st Year</option>
+        <option value="2nd Year">2nd Year</option>
+        <option value="3rd Year">3rd Year</option>
+        <option value="4th Year">4th Year</option></select
+      ><br /><br />
+
+      <button type="submit">Submit Registration</button>
+    </form>
+  </body>
+</html>
